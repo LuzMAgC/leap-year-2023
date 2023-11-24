@@ -32,3 +32,13 @@ class TestLeapYear:
 
         # Then
         assert lear_year.is_leap_year(4) == True
+
+    def test_1_is_not_leap(
+        self,
+    ):
+        # Given
+        lear_year = LeapYear()
+        # When
+
+        # Then
+        assert lear_year.is_leap_year(1) == False
