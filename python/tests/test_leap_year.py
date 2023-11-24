@@ -7,18 +7,18 @@ class TestLeapYear:
         self,
     ):
         # Given
-        my_class = LeapYear()
+        leap_year = LeapYear()
         # When
 
         # Then
-        assert my_class.is_leap_year(3) == False
+        assert leap_year.is_leap_year(3) == False
 
     def test_8_is_leap(
         self,
     ):
         # Given
-        my_class = LeapYear()
+        lear_year = LeapYear()
         # When
 
         # Then
-        assert my_class.is_leap_year(8) == True
+        assert lear_year.is_leap_year(8) == True
